@@ -57,30 +57,30 @@
         "musicfile": ""
       },{
         "id": 9,
-        "titlename": "Woofing those bugs away",
-        "bandname": ,
-        "imagefile": "",
+        "titlename": "Feel Good Guitar Pop Chill",
+        "bandname": "",
+        "imagefile": "images/EDC1.jpg",
         "musicfile": ""
       },
       {
         "id": 10,
-        "titlename": "Woofing those bugs away",
-        "bandname": ,
-        "imagefile": "",
+        "titlename": "Latin Beat Hiphop Groove",
+        "bandname": "",
+        "imagefile": "images/EDC2.jpg",
         "musicfile": ""
       },
       {
         "id": 11,
-        "titlename": "Woofing those bugs away",
-        "bandname": ,
-        "imagefile": "",
+        "titlename": "Positive Pop Guitar Uplifting",
+        "bandname": "",
+        "imagefile": "images/EDC3.jpg",
         "musicfile": ""
       },
       {
         "id": 12,
         "titlename": "Woofing those bugs away",
-        "bandname": ,
-        "imagefile": "",
+        "bandname": "",
+        "imagefile": "images/EDC4.jpg",
         "musicfile": ""
       }
   
