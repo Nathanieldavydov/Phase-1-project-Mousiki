@@ -5,28 +5,28 @@
         "titlename": "I'm Blue",
         "bandname": "Eiffel 65",
         "imagefile": "images/Blue.jpg",
-        "musicfile": ""
+        "musicfile": "music/[MP3DOWNLOAD.TO] Eiffel 65 - Blue (Da Ba Dee) [HQ]-320k.mp3"
       },
       {
         "id": 2,
         "titlename": "Hey Jude",
         "bandname": "The Beatles",
         "imagefile": "images/hey_jude.jpg",
-        "musicfile": ""
+        "musicfile": "music/[MP3DOWNLOAD.TO] The Beatles - Hey Jude-320k.mp3"
       },
       {
         "id": 3,
         "titlename": "Crawling",
         "bandname": "Linkin Park",
         "imagefile": "images/Hybrid_Theory.jpg",
-        "musicfile": ""
+        "musicfile": "music/Linkin_Park_-_Crawling_.mp3"
       },
       {
         "id": 4,
         "titlename": "I will always love you",
         "bandname": "Whitney Houston",
         "imagefile": "images/Whitney.jpg",
-        "musicfile": ""
+        "musicfile": "music/Whitney_Houston_-_I_Will_Always_Love_You.mp3"
       }
     ],
 
