@@ -1,0 +1,121 @@
+/*Font Family*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@100&display=swap');
+
+body {
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(15,15,83,1) 57%, rgba(7,69,82,1) 100%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+  }
+  
+  
+  body.light {
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(218,233,238,1) 57%, rgba(174,226,237,1) 100%);;
+    color: #000;
+  }
+
+  /*Title of the Music Player*/
+
+  h1 {
+    text-align: center;
+      font-family: Lato, sans-serif;
+    }
+
+  /*Navigation of the players*/
+
+    nav {
+        margin: 0 auto;
+    }
+
+  /*Toggle Moon and Sun*/
+
+  .checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .checkbox:checked + .toggle {
+    background: linear-gradient(45deg, rgba(242,238,72,1) 0%, rgba(255,207,26,1) 57%, rgba(255,163,0,1) 100%);
+    box-shadow: none;
+  }
+  
+  .checkbox:checked + .toggle {
+    transform: rotateY(180deg);
+  }
+  
+  .checkbox:checked + .toggle ul {
+    display: none;
+  }
+
+  .toggle {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(45deg, rgba(101,101,101,1) 0%, rgba(198,198,198,1) 57%, rgba(235,235,235,1) 100%);
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    margin: auto;
+    transition: all 300ms ease-in;
+    transform-style: preserve-3d;
+  }
+
+
+/*Button of each player*/
+
+  button {
+    font-family: Lato, sans-serif;
+    background: linear-gradient(90deg, #1e39a5, #c50e07);
+    background-size: auto;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 300% 300%;
+    -webkit-text-fill-color: transparent;
+    border: none;
+    font-size: 20px;
+  }
+
+
+/*Music player div*/
+
+  #music-player {
+        border-radius: 30px;
+        background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(218,233,238,1) 57%, rgba(174,226,237,1) 100%);
+        padding: 20px; 
+        width: 248px;
+        height: 500px;  
+        margin: auto;
+        border: solid 3px #727272;;
+  }
+
+  /*Bar in iphone*/
+  .bar {
+      
+        margin: 0 auto;
+        left: 25px;
+        width: 105px;
+        height:10px;
+        background: #727272;
+        border-radius: 0px 0px 5px 5px;
+      opacity: 0.7;
+  }
+
+  /*Album Cover*/
+  #album-cover {
+      border-radius: 25px;
+      background-color: white;
+      width: 250px;
+      height: 250px;
+      margin: 0 auto;
+      margin-top: 50px;
+  }
+
+  #prev {
+      margin-left: 67px;
+      margin-top: 60px;
+
+  }

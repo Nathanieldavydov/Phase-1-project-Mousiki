@@ -8,6 +8,36 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
+    <!---Title of the music player-->
+    <h1>MOUSIKI</h1>
+
+    <!---Toggle dark and light-->
+    
+<div>
+  <input type="checkbox" class="checkbox" id="toggle-mode"> 
+  <label for="toggle-mode" class="toggle">
+  </label>
+</div>
+    
+    <!---Nav bar of the players-->
+    <nav id="players">
+      <button id="celestino-player">Celestino</button>
+      <button id="joseph-player">Joseph</button>
+      <button id="nathaniel-player">Nathaniel</button>
+    </nav>
+<!---Actual music player-->
+<div class="bar"></div>
+    <div id="music-player">
+      
+      <div id="album-cover"></div>
+      
+      <button id="prev"><img src="images/previous.png"></button>
+      <button id="play"><img src="images/play.png"></button>
+      <button id="next"><img src="images/next.png"></button>
+      
+    </div>
+
 	<script src="index.js"></script>
   </body>
 </html>
