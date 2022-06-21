@@ -4,24 +4,28 @@
 
 
 const songSrc = document.querySelector('#songsrc')
+// songSrc.src = music/copacabana.mp3
 const songImage = document.querySelector('#album-cover')
+//need html for bandName and titleName
 const bandName = document.querySelector('#id')
 const titleName = document.querySelector('#id')
 
-fetch ('http://localhost:3000/music')
+fetch ('http://localhost:3000')
 .then(res=> res.json())
-.then(music => console.log(music[0]))
+.then(music => console.log(music[3].imagefile))
 
-songs = music.musicfile
-thumbnails = music.imagefile
-songArtists = music.bandname
-songTitles =music.titlename
+
+// songs = .musicfile
+// thumbnails = .imagefile
+// songArtists = .bandname
+// songTitles =.titlename
 
 // If play button clicked, change pp.src to pause button and call song.play(). If pause button clicked, change pp.src to play button and call song.pause().
 let playing = true
+let pPause = document.querySelector('#play')
 function playPause() {
   if (playing) {
-    pPause.src = "images/pause.png"; //this will change the 
+    pPause.src = "images/play.png"; //this will change the 
     // Play button to a Pause button
     // thumbnail.style.transform = "scale(1.15)"; //this will slightly 
     // zoom in the album cover for a cool effect
@@ -31,7 +35,6 @@ function playPause() {
     pPause.src = "images/play.png"
     // thumbnail.style.transform = "scale(1)" //this will slightly 
     // zoom in the album cover for a cool effect
- 
     songSrc.pause();
     playing = true;
   }
