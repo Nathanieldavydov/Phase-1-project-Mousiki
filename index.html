@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Phase 1 Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -27,15 +28,16 @@
       <button id="nathaniel-player">Nathaniel</button>
     </nav>
 <!---Actual music player-->
-<div class="bar"></div>
     <div id="music-player">
-      
+      <div class="bar"></div>
       <div id="album-cover"></div>
-      
-      <button id="prev"><img src="images/previous.png"></button>
-      <button id="play"><img src="images/play.png"></button>
-      <button id="next"><img src="images/next.png"></button>
-      
+      <h3 id="title-song">What do we do to love</h3>
+      <h4 id="title-artist">Hallman</h4>
+      <div id="buttons">
+      <i class="fa-solid fa-backward fa-3x" id="prev"></i>
+      <i class="fa-solid fa-play fa-3x" id="play"></i>
+      <i class="fa-solid fa-forward fa-3x" id="next"></i>
+      </div>
     </div>
 
 	<script src="index.js"></script>
