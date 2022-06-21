@@ -1,0 +1,88 @@
+{
+    "music": [
+      {
+        "id": 1,
+        "titlename": "I'm Blue",
+        "bandname": "Eiffel 65",
+        "imagefile": "images/Blue.jpg",
+        "musicfile": ""
+      },
+      {
+        "id": 2,
+        "titlename": "Hey Jude",
+        "bandname": "The Beatles",
+        "imagefile": "images/hey_jude.jpg",
+        "musicfile": ""
+      },
+      {
+        "id": 3,
+        "titlename": "Crawling",
+        "bandname": "Linkin Park",
+        "imagefile": "images/Hybrid_Theory.jpg",
+        "musicfile": ""
+      },
+      {
+        "id": 4,
+        "titlename": "I will always love you",
+        "bandname": "Whitney Houston",
+        "imagefile": "images/Whitney.jpg",
+        "musicfile": ""
+      },
+      {
+        "id": 5,
+        "titlename": "Been So Long",
+        "bandname": "Hallman",
+        "imagefile": "images/starfields_hallman.jpg",
+        "musicfile": ""
+      },
+      {
+        "id": 6,
+        "titlename": "What Do We Do To Love",
+        "bandname": "Hallman",
+        "imagefile": "images/hallman.jpg",
+        "musicfile": ""
+      },
+      {
+        "id": 7,
+        "titlename": "Copa Cabana",
+        "bandname": "Onda Norte",
+        "imagefile": "images/ondanorte_copacabana.jpg",
+        "musicfile": ""
+      },
+      {
+        "id": 8,
+        "titlename": "Flying Away",
+        "bandname": "Onda Norte",
+        "imagefile": "images/ondanorte_flyingaway.jpg",
+        "musicfile": ""
+      },{
+        "id": 9,
+        "titlename": "Woofing those bugs away",
+        "bandname": ,
+        "imagefile": "",
+        "musicfile": ""
+      },
+      {
+        "id": 10,
+        "titlename": "Woofing those bugs away",
+        "bandname": ,
+        "imagefile": "",
+        "musicfile": ""
+      },
+      {
+        "id": 11,
+        "titlename": "Woofing those bugs away",
+        "bandname": ,
+        "imagefile": "",
+        "musicfile": ""
+      },
+      {
+        "id": 12,
+        "titlename": "Woofing those bugs away",
+        "bandname": ,
+        "imagefile": "",
+        "musicfile": ""
+      }
+  
+    ]
+  }
