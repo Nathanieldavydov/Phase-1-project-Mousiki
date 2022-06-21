@@ -1,5 +1,5 @@
 {
-    "music": [
+    "Joseph": [
       {
         "id": 1,
         "titlename": "I'm Blue",
@@ -27,61 +27,68 @@
         "bandname": "Whitney Houston",
         "imagefile": "images/Whitney.jpg",
         "musicfile": ""
-      },
+      }
+    ],
+
+    "Nathaniel": [
       {
         "id": 5,
         "titlename": "Been So Long",
         "bandname": "Hallman",
         "imagefile": "images/starfields_hallman.jpg",
-        "musicfile": ""
+        "musicfile": "music/Been_so_long.mp3"
       },
       {
         "id": 6,
         "titlename": "What Do We Do To Love",
         "bandname": "Hallman",
         "imagefile": "images/hallman.jpg",
-        "musicfile": ""
+        "musicfile": "music/what_do_we_do_to_love.mp3"
       },
       {
         "id": 7,
         "titlename": "Copa Cabana",
         "bandname": "Onda Norte",
         "imagefile": "images/ondanorte_copacabana.jpg",
-        "musicfile": ""
+        "musicfile": "music/copacabana.mp3"
       },
       {
         "id": 8,
         "titlename": "Flying Away",
         "bandname": "Onda Norte",
         "imagefile": "images/ondanorte_flyingaway.jpg",
-        "musicfile": ""
-      },{
+        "musicfile": "music/flying_away.mp3"
+      }
+    ],
+
+    "Celestino": [
+      {
         "id": 9,
         "titlename": "Feel Good Guitar Pop Chill",
         "bandname": "",
         "imagefile": "images/EDC1.jpg",
-        "musicfile": ""
+        "musicfile": "music/FEEL-GOOD-GUITAR-POP-CHILL_AdobeStock_500511135_preview.m4a"
       },
       {
         "id": 10,
         "titlename": "Latin Beat Hiphop Groove",
         "bandname": "",
         "imagefile": "images/EDC2.jpg",
-        "musicfile": ""
+        "musicfile": "music/LATIN-BEAT-HIPHOP-GROOVE_AdobeStock_504636396_preview.m4a"
       },
       {
         "id": 11,
         "titlename": "Positive Pop Guitar Uplifting",
         "bandname": "",
         "imagefile": "images/EDC3.jpg",
-        "musicfile": ""
+        "musicfile": "music/POSITIVE-POP-GUITAR-UPLIFTING_AdobeStock_501827455_preview.m4a"
       },
       {
         "id": 12,
-        "titlename": "Woofing those bugs away",
+        "titlename": "Summer Funk",
         "bandname": "",
         "imagefile": "images/EDC4.jpg",
-        "musicfile": ""
+        "musicfile": "music/Summer-Funky-Nu-Disco-House_AdobeStock_508932153_preview.m4a"
       }
   
     ]
