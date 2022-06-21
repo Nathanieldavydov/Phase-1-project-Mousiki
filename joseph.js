@@ -1,21 +1,22 @@
 //1) load player buttons on refresh- html
 //2) play/pause function
 //3) skip to next song function
-
+fetch ('http://localhost:3000')
+.then(res=> res.json())
+.then(music => console.log(music[3].imagefile))
+Joseph = music
 
 const songSrc = document.querySelector('#songsrc')
-// songSrc.src = music/copacabana.mp3
+songSrc.src = Joseph[0].musicfile
 const songImage = document.querySelector('#album-cover')
 //need html for bandName and titleName
 const bandName = document.querySelector('#id')
 const titleName = document.querySelector('#id')
 
-fetch ('http://localhost:3000')
-.then(res=> res.json())
-.then(music => console.log(music[3].imagefile))
 
 
-// songs = .musicfile
+
+// songs = music[3].musicfile
 // thumbnails = .imagefile
 // songArtists = .bandname
 // songTitles =.titlename
