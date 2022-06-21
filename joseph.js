@@ -3,14 +3,15 @@
 //3) skip to next song function
 
 
-const songSrc = document.querySelector('#idForAudioSrcTag')
-const songImage = document.querySelector('#idForAlbumCover')
+const songSrc = document.querySelector('#songsrc')
+const songImage = document.querySelector('#album-cover')
 const bandName = document.querySelector('#id')
 const titleName = document.querySelector('#id')
 
 fetch ('http://localhost:3000/music')
 .then(res=> res.json())
-.then(music => console.log(music))
+.then(music => console.log(music[0]))
+
 songs = music.musicfile
 thumbnails = music.imagefile
 songArtists = music.bandname
