@@ -131,6 +131,8 @@ body {
     left: 53px;
     bottom: 7px;
     color: grey;
+    display: flex;
+    flex-direction: row;
 }
 #prev {
     position: relative;
