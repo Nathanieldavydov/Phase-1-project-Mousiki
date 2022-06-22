@@ -62,7 +62,7 @@ nathanielProfile.addEventListener('click', () => {
         albumCover.src = data[0].imagefile;
         songTitle.textContent = data[0].titlename;
         songArtist.textContent = data[0].bandname;
-        musicSource.src = data[0].musicfile;
+        //musicSource.src = data[0].musicfile;
     })
 
     songTwo.addEventListener('click', () => {
