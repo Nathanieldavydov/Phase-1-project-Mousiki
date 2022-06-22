@@ -1,9 +1,9 @@
 //1) load player buttons on refresh- html
 //2) play/pause function
 //3) skip to next song function
-// fetch ('http://localhost:3000/Joseph')
-// .then(res=> res.json())
-// .then(music => console.log(music.imagefile))
+fetch ('http://localhost:3000')
+.then(res=> res.json())
+.then(music => console.log())
 
 // const songSrc = document.querySelector('#songsrc')
 // // songSrc.src = Joseph.musicfile
@@ -19,6 +19,8 @@ const curr_track = document.getElementById('songsrc')////*****
 
 let isPlaying = false
 let track_index = 0
+
+let track_list = Object.keys(Joseph.shareInfo[i]).length
 
 function playpauseTrack() {
     // Switch between playing and pausing
@@ -44,7 +46,9 @@ function pauseTrack() {
     // Replace icon with the play icon
     playpause_btn.innerHTML = '<i class="fa-solid fa-play fa-3x" id="play"></i>';
     }
-    
+
+//need to change this .length of entire array
+//per user
 function nextTrack() {
     // Go back to the first track if the
     // current one is the last in the track list
