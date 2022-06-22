@@ -65,28 +65,28 @@
       {
         "id": 9,
         "titlename": "Feel Good Guitar Pop Chill",
-        "bandname": "",
+        "bandname": "Aventura",
         "imagefile": "images/EDC1.jpg",
         "musicfile": "music/FEEL-GOOD-GUITAR-POP-CHILL_AdobeStock_500511135_preview.m4a"
       },
       {
         "id": 10,
         "titlename": "Latin Beat Hiphop Groove",
-        "bandname": "",
+        "bandname": "Bad Bunny",
         "imagefile": "images/EDC2.jpg",
         "musicfile": "music/LATIN-BEAT-HIPHOP-GROOVE_AdobeStock_504636396_preview.m4a"
       },
       {
         "id": 11,
         "titlename": "Positive Pop Guitar Uplifting",
-        "bandname": "",
+        "bandname": "CNCO",
         "imagefile": "images/EDC3.jpg",
         "musicfile": "music/POSITIVE-POP-GUITAR-UPLIFTING_AdobeStock_501827455_preview.m4a"
       },
       {
         "id": 12,
         "titlename": "Summer Funk",
-        "bandname": "",
+        "bandname": "Rebelde",
         "imagefile": "images/EDC4.jpg",
         "musicfile": "music/Summer-Funky-Nu-Disco-House_AdobeStock_508932153_preview.m4a"
       }
