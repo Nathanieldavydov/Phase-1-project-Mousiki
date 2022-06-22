@@ -31,32 +31,38 @@
 
 <!---Actual music player-->
     <div id="music-player">
+
+      <audio src="" id="songsrc" autoplay="false" ></audio>
       <div class="bar"></div>
       <nav id="song-favorites">
-        <div id="song-one"></div>
-        <div id="song-two"></div>
-        <div id="song-three"></div>
-        <div id="song-four"></div>
+        <img id="song-one"></img>
+        <img id="song-two"></img>
+        <img id="song-three"></img>
+        <img id="song-four"></img>
+        
+
       </nav>
-    
-      <div id="album-cover"></div>
+      <img id="album-cover"></img>
       <h3 id="title-song">What do we do to love</h3>
       <h4 id="title-artist">Hallman</h4>
       <div id="buttons">
-      <i class="fa-solid fa-backward fa-3x" id="prev"></i>
-      <i class="fa-solid fa-play fa-3x" id="play"></i>
-      <i class="fa-solid fa-pause fa-3x" id="pause"></i>
-      <i class="fa-solid fa-forward fa-3x" id="next"></i>
-      <audio src="music/copacabana.mp3" id="songsrc"></audio>
-      <div id="album-cover"></div>
-      
-      <button id="prev"><img src="images/previous.png" onclick="previousSong()"></button>
-      <button id="play"><img src="images/play.png" onclick="playPause()"></button>
-      <button id="next"><img src="images/next.png" onclick="nextSong()"></button>
+        <div class="prev-track" onclick="prevTrack()"><i class="fa-solid fa-backward fa-3x" id="prev"></i></div>
+        <div class="playpause-track" onclick="playpauseTrack()"><i class="fa-solid fa-play fa-3x" id="play"></i></div>
+        <!-- <i class="fa-solid fa-pause fa-3x" id="pause"> -->
+        <div class="next-track" onclick="nextTrack()"><i class="fa-solid fa-forward fa-3x" id="next"></i></div>
       </div>
+      <!-- <button id= "prev-btn" class = "btn" onclick="previousSong()">
+        <button id = "play-btn" class = "btn" onclick="playSong()">
+          <button id = "pause-btn" class = "btn" onclick="pauseSong()"></button>
+          <button id = "next-btn" class = "btn" onclick="nextSong()"></button> -->
+      <!-- <button id="prev"><img src="images/previous.png" onclick="previousSong()"></button>
+      <button id="play"><img src="images/play.png" onclick="playPause()"></button>
+      <button id="next"><img src="images/next.png" onclick="nextSong()"></button> -->
+      
     </div>
 
 	<script src="index.js"></script>
-  <script src ="joseph.js"></script>
+  <script src ="celestino.js"></script>
+  <script src ="Joseph.js"></script>
   </body>
 </html>
