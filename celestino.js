@@ -69,18 +69,21 @@ nathanielProfile.addEventListener('click', () => {
         albumCover.src = data[1].imagefile;
         songTitle.textContent = data[1].titlename;
         songArtist.textContent = data[1].bandname;
+        musicSource.src = data[1].musicfile;
     })
 
     songThree.addEventListener('click', () => {
         albumCover.src = data[2].imagefile;
         songTitle.textContent = data[2].titlename;
         songArtist.textContent = data[2].bandname;
+        musicSource.src = data[2].musicfile;
     })
 
     songFour.addEventListener('click', () => {
         albumCover.src = data[3].imagefile;
         songTitle.textContent = data[3].titlename;
         songArtist.textContent = data[3].bandname;
+        musicSource.src = data[3].musicfile;
     })
 }
 
