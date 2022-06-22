@@ -30,7 +30,7 @@
 <!---Actual music player-->
     <div id="music-player">
 
-      <audio src="" id="songsrc"></audio>
+      <audio src="music/Whitney_Houston_-_I_Will_Always_Love_You.mp3" id="songsrc"></audio>
       <div class="bar"></div>
       <nav id="song-favorites">
         <div id="song-one"></div>
@@ -42,12 +42,15 @@
       <h3 id="title-song">What do we do to love</h3>
       <h4 id="title-artist">Hallman</h4>
       <div id="buttons">
-      <i class="fa-solid fa-backward fa-3x" id="prev" onclick="previousSong()"></i>
-      <i class="fa-solid fa-play fa-3x" id="play" onclick="playPause()"></i>
-      <i class="fa-solid fa-paue fa-3x" id="pause"></i>
-      <i class="fa-solid fa-forward fa-3x" id="next" onclick="nextSong()"></i>
+        <div class="prev-track" onclick="prevTrack()"><i class="fa-solid fa-backward fa-3x" id="prev"></i></div>
+        <div class="playpause-track" onclick="playpauseTrack()"><i class="fa-solid fa-play fa-3x" id="play"></i></div>
+        <!-- <i class="fa-solid fa-pause fa-3x" id="pause"> -->
+        <div class="next-track" onclick="nextTrack()"><i class="fa-solid fa-forward fa-3x" id="next"></i></div>
       </div>
-     
+      <!-- <button id= "prev-btn" class = "btn" onclick="previousSong()">
+        <button id = "play-btn" class = "btn" onclick="playSong()">
+          <button id = "pause-btn" class = "btn" onclick="pauseSong()"></button>
+          <button id = "next-btn" class = "btn" onclick="nextSong()"></button> -->
       <!-- <button id="prev"><img src="images/previous.png" onclick="previousSong()"></button>
       <button id="play"><img src="images/play.png" onclick="playPause()"></button>
       <button id="next"><img src="images/next.png" onclick="nextSong()"></button> -->
