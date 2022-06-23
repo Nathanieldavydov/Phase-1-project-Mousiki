@@ -118,6 +118,7 @@ function nextSong(){
     songTitle.textContent = data[count].titlename;
     songArtist.textContent = data[count].bandname;
     musicSource.src = data[count].musicfile;
+    songSrc.play()
 }
 
 function previousSong(){
@@ -130,6 +131,7 @@ function previousSong(){
     songTitle.textContent = data[count].titlename;
     songArtist.textContent = data[count].bandname;
     musicSource.src = data[count].musicfile;
+    songSrc.play()
 }
 
 nextBtn.addEventListener('click', () => {
